@@ -1,0 +1,18 @@
+{
+  "require": {
+    "vlucas/phpdotenv": "^5.5",
+    "illuminate/database": "^8.83",
+    "illuminate/pagination": "^8.83"
+  },
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "Controllers",
+      "Components\\" : "Components",
+      "Helpers\\": "helpers",
+      "Constants\\": "constants",
+      "Mixin\\": "mixin",
+      "Models\\" : "model",
+      "CustomExceptions\\": "exceptions"
+    }
+  }
+}
